@@ -21,6 +21,7 @@ fer = Fernet(key)
 # random text + key + password = text to encrypt
 # if you type wrong password you will have wrong decrypted text
 
+
 def view():
     with open("passwords.txt", "r") as f:
         for line in f.readlines():
